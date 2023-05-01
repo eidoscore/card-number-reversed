@@ -10,9 +10,11 @@ cat `<<EOT>>` number.txt
 EOT
 
 
+* jalankan bash script reverse.sh maka nomor akan dibalikan <br/>
+
 * selain mereverse nomor kartu dengan cara menjalankan bash script diatas, bisa juga langsung menjalankannya melalui terminal dengan command :
 
 `sed -E 's/([0-9]{4}) ([0-9]{4}) ([0-9]{4}) ([0-9]{4})/\4 \3 \2 \1/g' number.txt > number_reversed.txt`
 
 
-######dengan menggunakan command diatas akan membaca file number.txt & nomor kartu akan di dibalik kemudian dipisah dengan membuat file baru number_reversed.txt yang mana sudah berisi nomor yang sudah dibalikan.
+* dengan menggunakan command diatas akan membaca file number.txt & nomor kartu akan di dibalik kemudian dipisah dengan membuat file baru number_reversed.txt yang mana sudah berisi nomor yang sudah dibalikan.
